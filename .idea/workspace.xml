@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/default.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables.sass" afterDir="false" />
+    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add init React app.">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +28,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -39,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo",
+    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo/src/components/Main",
     "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,7 +64,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Main" />
+      <recent name="$PROJECT_DIR$/src/components/Header" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/App" />
     </key>
   </component>
@@ -63,8 +82,16 @@
       <option name="presentableId" value="Default" />
       <updated>1659082185757</updated>
       <workItem from="1659082187108" duration="2426000" />
-      <workItem from="1659084663751" duration="1140000" />
+      <workItem from="1659084663751" duration="3904000" />
     </task>
+    <task id="LOCAL-00001" summary="Add init React app.">
+      <created>1659085949337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659085949337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add init React app." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add init React app." />
   </component>
 </project>
