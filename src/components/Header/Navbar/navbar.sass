@@ -1,0 +1,32 @@
+@import './src/variables'
+
+.navbar
+  display: flex
+  align-items: end
+
+.navbar--item
+  margin-right: 55px
+
+.navbar--item__link
+  color: white
+  text-decoration: none
+  font-size: 14px
+  font-weight: 400
+  position: relative
+
+.navbar--item__link:after
+  position: absolute
+  content: ''
+  border-bottom: 1px solid $theme-secondary-color
+  width: 100%
+  transform: translateX(-50%)
+  bottom: -15px
+  left: 50%
+  opacity: 0
+  transition: color, opacity .3s linear
+
+.navbar--item__link:hover
+  color: $theme-secondary-color
+
+.navbar--item__link:hover::after
+  opacity: 1

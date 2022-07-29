@@ -1,4 +1,4 @@
-import './app.scss';
+import './app.sass';
 import Header from "../Header";
 import Main from "../Main";
 import Footer from "../Footer";
