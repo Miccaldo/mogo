@@ -5,45 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add header, main, footer init root components.">
-      <change afterPath="$PROJECT_DIR$/public/icons/BOOK 2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/COMPUTER _ OK.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/HOME.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/IMAGE.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/LINE GRAPH.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/MAGNIFYING GLAS.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/SHOPPING CART.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/pinterest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/eagle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Navbar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/BOOK 2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/COMPUTER _ OK.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/HOME.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/IMAGE.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/LINE GRAPH.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/MAGNIFYING GLAS.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/SHOPPING CART.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/pinterest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/eagle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/button.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/default.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/default.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/app.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -58,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Sass File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -84,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo/src/components/Header/Menu",
+    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo",
     "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -122,6 +90,7 @@
       <workItem from="1659095540277" duration="711000" />
       <workItem from="1659096259541" duration="1095000" />
       <workItem from="1659097408438" duration="11291000" />
+      <workItem from="1659186301845" duration="10908000" />
     </task>
     <task id="LOCAL-00001" summary="Add init React app.">
       <created>1659085949337</created>

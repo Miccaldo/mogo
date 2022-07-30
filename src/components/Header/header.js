@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Button from "../ui/Button";
 import './header.sass'
 
 const Header = () => {
@@ -18,12 +19,6 @@ const Header = () => {
         )
     }
 
-    const button = () => {
-        return(
-            <button>LEARN MORE</button>
-        )
-    }
-
     return (
         <div className="header">
             <div className='container'>
@@ -33,7 +28,7 @@ const Header = () => {
                 </div>
             </div>
             {front()}
-            {button()}
+            <Button className='header--button' appearance='primary'>LEARN MORE</Button>
             <div className='header__bg header__bg--gradient'></div>
             <img className='header__bg header__bg--image' src='/images/eagle.png' alt=''/>
         </div>

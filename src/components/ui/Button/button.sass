@@ -1,0 +1,23 @@
+@import './src/variables'
+
+.button[appearance='primary']
+  background-color: transparent
+  border: 3px white solid
+  padding: 0 28px
+  color: white
+  transition: background-color .2s linear, color .1s linear
+  cursor: pointer
+  font-family: $theme-font
+  font-weight: $theme-font-bold
+  font-size: 14px
+  height: 42px
+
+.button[appearance='primary']:hover
+  background-color: white
+  color: $theme-third-color
+
+.button[appearance='primary']:active
+  color: $theme-secondary-color
+
+.button[appearance='secondary']
+  background-color: $theme-primary-color
