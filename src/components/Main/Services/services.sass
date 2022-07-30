@@ -1,0 +1,33 @@
+@import './src/variables'
+
+.services
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+
+.services__service
+  text-align: start
+  margin-bottom: 100px
+
+.service-wrapper
+  display: flex
+
+.service-wrapper--title
+  font-weight: $theme-font-regular
+  font-size: 14px
+  margin-bottom: 20px
+  text-transform: uppercase
+
+.service-wrapper--description
+  font-family: 'Roboto', sans-serif
+  font-size: 15px
+  color: #999999
+
+.service-wrapper--image
+  margin-right: 28px
+
+@media only screen and (max-width: $breakpoint-medium)
+  .services
+    grid-template-columns: repeat(1, 1fr)
+
+  .services__service
+    margin: 0 auto 50px

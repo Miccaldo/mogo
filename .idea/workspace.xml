@@ -4,14 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add header, main, footer init root components.">
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/button.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/index.js" afterDir="false" />
+    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add done header.">
+      <change afterPath="$PROJECT_DIR$/public/icons/alarm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/services.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Section/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Section/section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Section/section.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/alarm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/computer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icons/twitter.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/BOOK 2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/book.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/COMPUTER _ OK.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/computer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/HOME.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/IMAGE.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/LINE GRAPH.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/graph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/MAGNIFYING GLAS.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/SHOPPING CART.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/default.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/default.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -26,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -52,7 +74,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo",
+    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo/src/static",
     "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -64,11 +86,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static" />
+      <recent name="$PROJECT_DIR$/public/icons" />
+      <recent name="$PROJECT_DIR$/src/components/Main/Services" />
       <recent name="$PROJECT_DIR$/src/components/Header/Menu" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/src/static/images" />
-      <recent name="$PROJECT_DIR$/src/static/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -90,7 +112,7 @@
       <workItem from="1659095540277" duration="711000" />
       <workItem from="1659096259541" duration="1095000" />
       <workItem from="1659097408438" duration="11291000" />
-      <workItem from="1659186301845" duration="10908000" />
+      <workItem from="1659186301845" duration="17702000" />
     </task>
     <task id="LOCAL-00001" summary="Add init React app.">
       <created>1659085949337</created>
@@ -106,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659089284913</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add done header.">
+      <created>1659197429856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659197429856</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add init React app." />
     <MESSAGE value="Add header, main, footer init root components." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header, main, footer init root components." />
+    <MESSAGE value="Add done header." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add done header." />
   </component>
 </project>
