@@ -21,7 +21,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <div className='container'>
+            <div className='header--top container'>
                 <div className='navbar-wrapper'>
                     {logo()}
                     <Navbar />
@@ -30,7 +30,7 @@ const Header = () => {
             {front()}
             <Button className='header--button' appearance='primary'>LEARN MORE</Button>
             <div className='header__bg header__bg--gradient'></div>
-            <img className='header__bg header__bg--image' src='/images/eagle.png' alt=''/>
+            <img className='header__bg--image' src='images/eagle.png' alt=''/>
         </div>
     )
 }

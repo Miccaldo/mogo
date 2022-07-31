@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add footer and fixes.">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Fix icons and images.">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Services/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Team/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Team/team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/eagle.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/eagle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +37,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/App/app.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Footer/SubscribeForm/subscribeForm.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Footer/footer.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Footer/footer.sass" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Header/header.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Header/header.sass" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Main/Services/services.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Main/Team/Card/card.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Main/Team/Card/card.sass" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Main/Team/SocialMedia/socialMedia.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Main/Team/team.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -99,7 +102,7 @@
       <workItem from="1659096259541" duration="1095000" />
       <workItem from="1659097408438" duration="11291000" />
       <workItem from="1659186301845" duration="46117000" />
-      <workItem from="1659287150797" duration="4371000" />
+      <workItem from="1659287150797" duration="8048000" />
     </task>
     <task id="LOCAL-00001" summary="Add init React app.">
       <created>1659085949337</created>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659286651378</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix icons and images.">
+      <created>1659291549262</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659291549262</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +177,7 @@
     <MESSAGE value="Add services." />
     <MESSAGE value="Add team section." />
     <MESSAGE value="Add footer and fixes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add footer and fixes." />
+    <MESSAGE value="Fix icons and images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix icons and images." />
   </component>
 </project>
