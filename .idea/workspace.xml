@@ -4,40 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add services.">
-      <change afterPath="$PROJECT_DIR$/public/icons/alarm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/book.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/computer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/graph.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/pinterest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/team_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/Card/card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/Card/card.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/Card/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/SocialMedia/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/SocialMedia/socialMedia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/SocialMedia/socialMedia.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/team.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Team/team.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/eagle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/team_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/team_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/team_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add team section.">
+      <change afterPath="$PROJECT_DIR$/public/icons/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/subscribe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SubscribeForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SubscribeForm/subscribeForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SubscribeForm/subscribeForm.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/input.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Services/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Team/Card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Team/Card/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Team/Card/card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Team/Card/card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Button/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Button/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Button/button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/default.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/default.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/alarm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/computer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/graph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/eagle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/team_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/team_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/team_3.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo/src/components/Main/Team/SocialMedia",
+    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo/public/icons",
     "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,11 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/icons" />
+      <recent name="$PROJECT_DIR$/src/components/ui/Input" />
+      <recent name="$PROJECT_DIR$/src/components/Footer/SubscribeForm" />
       <recent name="$PROJECT_DIR$/src/components/Main/Team/SocialMedia" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/static" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/src/components/Main/Team" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -114,7 +115,7 @@
       <workItem from="1659095540277" duration="711000" />
       <workItem from="1659096259541" duration="1095000" />
       <workItem from="1659097408438" duration="11291000" />
-      <workItem from="1659186301845" duration="30041000" />
+      <workItem from="1659186301845" duration="45883000" />
     </task>
     <task id="LOCAL-00001" summary="Add init React app.">
       <created>1659085949337</created>
@@ -144,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659204577848</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add team section.">
+      <created>1659267790746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659267790746</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +174,7 @@
     <MESSAGE value="Add header, main, footer init root components." />
     <MESSAGE value="Add done header." />
     <MESSAGE value="Add services." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add services." />
+    <MESSAGE value="Add team section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add team section." />
   </component>
 </project>

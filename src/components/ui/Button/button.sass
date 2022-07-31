@@ -1,16 +1,19 @@
 @import './src/variables'
 
+.button__common
+  padding: 0 28px
+  color: white
+  font-size: 14px
+  height: 42px
+  font-family: $theme-font
+  font-weight: $theme-font-bold
+  cursor: pointer
+  transition: background-color .2s linear, color .1s linear
+
 .button[appearance='primary']
   background-color: transparent
   border: 3px white solid
-  padding: 0 28px
-  color: white
-  transition: background-color .2s linear, color .1s linear
-  cursor: pointer
-  font-family: $theme-font
-  font-weight: $theme-font-bold
-  font-size: 14px
-  height: 42px
+
 
 .button[appearance='primary']:hover
   background-color: white
@@ -21,3 +24,11 @@
 
 .button[appearance='secondary']
   background-color: $theme-primary-color
+  border: none
+
+.button[appearance='secondary']:hover
+  background-color: $theme-third-color
+  box-shadow: rgb(0 0 0 / 10%) 0 0 8px 0
+
+.button[appearance='secondary']:active
+  color: $theme-secondary-color

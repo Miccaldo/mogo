@@ -10,8 +10,7 @@ const Card = ({name, role, image, socialMedia}) => {
                 <img className='image-wrapper__element--image image-wrapper__element' src={image} alt='*'></img>
                 <SocialMedia className='social-media-wrapper--links'
                              items={socialMedia}/>
-                <div className='image-wrapper__element--mask image-wrapper__element'>
-                </div>
+                <div className='image-wrapper__element--mask image-wrapper__element' />
                 <div className='image-wrapper__element--bg image-wrapper__element'/>
                 <div className='image-wrapper__element--block'/>
             </div>

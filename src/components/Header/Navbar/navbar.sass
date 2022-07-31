@@ -4,6 +4,9 @@
   display: flex
   align-items: flex-end
 
+.navbar-mobile
+  display: none
+
 .navbar--item
   margin-right: 55px
 
@@ -30,3 +33,17 @@
 
 .navbar--item__link:hover::after
   opacity: 1
+
+
+@media only screen and (max-width: $breakpoint-small)
+  .navbar
+    display: none
+
+  .navbar-mobile
+    display: block
+    padding-top: 30px
+    padding-right: 20px
+    cursor: pointer
+
+  .navbar-mobile:hover
+    filter: brightness(0) saturate(100%) invert(81%) sepia(30%) saturate(502%) hue-rotate(3deg) brightness(105%) contrast(89%)
