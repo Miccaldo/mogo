@@ -39,10 +39,10 @@ const Services = () => {
     return(
         <Section title='AMAZING SERVICES' subtitle='We work with'>
             <div className='services'>
-                {services.map(service => {
+                {services && services.map((service, index) => {
                     const { icon, title, description } = service;
                     return (
-                        <div className='services__service'>
+                        <div key={index} className='services__service'>
                             <div className='service-wrapper'>
                                 <div className='service-wrapper--image'>
                                     <img src={icon} alt='*' />

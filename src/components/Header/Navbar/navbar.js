@@ -7,10 +7,10 @@ const Navbar = () => {
     return(
         <ul className='navbar'>
             {
-                navbarItems.map(item => {
+                navbarItems && navbarItems.map((item, index) => {
                     const { name, url } = item;
                     return (
-                        <li className='navbar--item'>
+                        <li key={index} className='navbar--item'>
                             <a className='navbar--item__link' href={url}>
                                 {name}
                             </a>
