@@ -1,0 +1,26 @@
+@import './src/variables'
+
+.footer
+  margin-top: 80px
+  padding: 0 50px
+
+.footer__footer-wrapper
+  border-top: rgba(229, 229, 229, 1) 4px solid
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.footer__footer-wrapper--copyright
+  font-size: 14px
+
+.footer__footer-wrapper--developer
+  color: $theme-pink
+
+
+@media only screen and (max-width: $breakpoint-small)
+  .footer__footer-wrapper
+    flex-direction: column
+    align-items: end
+
+  .footer__footer-wrapper--copyright
+    padding-top: 15px

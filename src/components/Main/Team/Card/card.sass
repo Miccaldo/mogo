@@ -1,0 +1,74 @@
+@import './src/variables'
+
+.card
+  position: relative
+  margin-right: 30px
+  margin-bottom: 30px
+  margin-left: 30px
+  max-width: 100%
+  min-height: 320px
+
+.image-wrapper
+  position: relative
+  min-height: 320px
+  min-width: 260px
+
+.image-wrapper__element
+  position: absolute
+  top: 0
+  left: 0
+  transition: left, top .05s linear
+  height: 472px
+  width: 380px
+
+
+.image-wrapper__element--bg
+  background-color: $theme-primary-color
+  z-index: -1
+
+.image-wrapper__element--mask
+  background: linear-gradient(180deg, rgba(232,129,129,1) 0%, rgba(241,218,138,1) 100%)
+  visibility: hidden
+  opacity: 0.9
+
+.image-wrapper__element--block
+  height: 472px
+  width: 380px
+  margin-bottom: 30px
+  min-height: 320px
+  min-width: 260px
+
+.image-wrapper:hover .image-wrapper__element--image
+  left: -10px
+  top: -10px
+
+.image-wrapper:hover .image-wrapper__element--mask
+  left: -10px
+  top: -10px
+  visibility: visible
+
+.image-wrapper:hover .social-media-wrapper--links
+  visibility: visible
+
+.card--role
+  color: #999999
+  font-style: italic
+  margin-top: 15px
+
+.social-media-wrapper--links
+  position: absolute
+  top: calc(50% - 10px)
+  left: calc(50% - 10px)
+  transform: translate(-50%, -50%)
+  visibility: hidden
+  z-index: 1
+
+
+@media only screen and (max-width: $breakpoint-extra-small)
+  .image-wrapper__element
+    height: 320px
+    width: 260px
+
+  .image-wrapper__element--block
+    height: 320px
+    width: 260px

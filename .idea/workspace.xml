@@ -4,9 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/default.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables.sass" afterDir="false" />
+    <list default="true" id="50f3fa4c-d171-4ed1-9836-2834ceb6e978" name="Changes" comment="Add team section.">
+      <change afterPath="$PROJECT_DIR$/public/icons/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/subscribe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SubscribeForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SubscribeForm/subscribeForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/SubscribeForm/subscribeForm.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input/input.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/navbar.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Team/Card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Team/Card/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Team/Card/card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Team/Card/card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Button/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Button/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Button/button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/default.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/default.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/alarm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/computer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/graph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/icons/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/eagle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/team_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/team_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/team_3.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +51,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Sass File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -39,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo",
+    "last_opened_file_path": "/home/miccaldo/workspace/ReactJS/mogo/public/icons",
     "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,7 +88,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/icons" />
+      <recent name="$PROJECT_DIR$/src/components/ui/Input" />
+      <recent name="$PROJECT_DIR$/src/components/Footer/SubscribeForm" />
+      <recent name="$PROJECT_DIR$/src/components/Main/Team/SocialMedia" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/App" />
     </key>
   </component>
@@ -63,8 +111,48 @@
       <option name="presentableId" value="Default" />
       <updated>1659082185757</updated>
       <workItem from="1659082187108" duration="2426000" />
-      <workItem from="1659084663751" duration="1140000" />
+      <workItem from="1659084663751" duration="9863000" />
+      <workItem from="1659095540277" duration="711000" />
+      <workItem from="1659096259541" duration="1095000" />
+      <workItem from="1659097408438" duration="11291000" />
+      <workItem from="1659186301845" duration="45883000" />
     </task>
+    <task id="LOCAL-00001" summary="Add init React app.">
+      <created>1659085949337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659085949337</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add header, main, footer init root components.">
+      <created>1659089284913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659089284913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add done header.">
+      <created>1659197429856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659197429856</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add services.">
+      <created>1659204577848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659204577848</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add team section.">
+      <created>1659267790746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659267790746</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,5 +168,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add init React app." />
+    <MESSAGE value="Add header, main, footer init root components." />
+    <MESSAGE value="Add done header." />
+    <MESSAGE value="Add services." />
+    <MESSAGE value="Add team section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add team section." />
   </component>
 </project>

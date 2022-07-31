@@ -1,0 +1,39 @@
+@import './src/variables'
+
+.subscribe-form
+  padding: 8px 0
+  white-space: nowrap
+  display: flex
+
+.subscribe-form--input
+  width: 232px
+
+.subscribe-form--button__icon
+  display: none
+
+@media only screen and (max-width: $breakpoint-small)
+  .subscribe-form
+    width: 100%
+    padding-top: 15px
+
+  .subscribe-form--button
+    width: 150px
+
+  .subscribe-form--input
+    width: 100%
+
+@media only screen and (max-width: $breakpoint-extra-small)
+  .subscribe-form--button
+    width: 42px
+    height: 42px
+    padding: 0
+
+  .subscribe-form--button__icon
+    display: block
+    height: 22px
+    width: 22px
+    filter: brightness(0) invert(1)
+    margin: 0 auto
+
+  .subscribe-form--button__name
+    display: none

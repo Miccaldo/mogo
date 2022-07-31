@@ -1,0 +1,87 @@
+@import './src/variables'
+
+.header
+  height: 1000px
+  position: relative
+
+
+.header__bg
+  position: absolute
+  top: 0
+  width: 100%
+
+.header__bg--image
+  display: block
+  height: 1134px
+  z-index: -2
+
+.header__bg--gradient
+  height: 1000px
+  background: linear-gradient(180deg, rgba(232,129,129,1) 0%, rgba(241,218,138,1) 100%)
+  opacity: 0.9
+  z-index: -1
+
+
+.navbar-wrapper
+  display: flex
+  width: 100%
+  justify-content: space-between
+
+.navbar-wrapper--logo
+  margin: 0
+  padding-top: 28px
+  padding-left: 55px
+  color: white
+  font-size: 30px
+
+
+.front
+  position: absolute
+  top: 42%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.front--text
+  color: white
+  text-align: center
+  line-height: 0.9
+
+.front--text__description
+  font-size: 72px
+  font-weight: $theme-font-regular
+  font-family: $theme-decorative-font
+  margin-bottom: 42px
+
+
+.front--text__title
+  font-size: 150px
+  font-family: $theme-font
+  text-align: center
+
+.header--button
+  position: absolute
+  top: 73%
+  left: 50%
+  transform: translate(-50%, 0)
+
+@media only screen and (max-width: $breakpoint-medium)
+  .front--text__title
+    font-size: 100px
+
+  .front--text__description
+    font-size: 42px
+
+@media only screen and (max-width: $breakpoint-small)
+  .front--text__title
+    font-size: 70px
+
+  .front--text__description
+    font-size: 20px
+    margin-bottom: 20px
+
+@media only screen and (max-width: $breakpoint-extra-small)
+  .front--text__title
+    font-size: 40px
+
+  .front--text__description
+    font-size: 20px
