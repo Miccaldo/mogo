@@ -5,32 +5,32 @@ const Services = () => {
 
     const services = [
         {
-            icon: '/icons/alarm.svg',
+            icon: 'icons/alarm.svg',
             title: 'Photography',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
         },
         {
-            icon: '/icons/graph.svg',
+            icon: 'icons/graph.svg',
             title: 'Web design',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
         },
         {
-            icon: '/icons/computer.svg',
+            icon: 'icons/computer.svg',
             title: 'Creativity',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
         },
         {
-            icon: '/icons/book.svg',
+            icon: 'icons/book.svg',
             title: 'SEO',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
         },
         {
-            icon: '/icons/home.svg',
+            icon: 'icons/home.svg',
             title: 'CSS/HTML',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
         },
         {
-            icon: '/icons/image.svg',
+            icon: 'icons/image.svg',
             title: 'Digital',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
         }
