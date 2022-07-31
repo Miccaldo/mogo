@@ -8,7 +8,7 @@ const Team = () => {
         {
             name: 'Matthew Dix',
             role: 'Graphic Design',
-            image: '/images/team_1.png',
+            image: 'images/team_1.png',
             social_media: [
                 {
                     icon: 'icons/facebook.svg',
@@ -31,7 +31,7 @@ const Team = () => {
         {
             name: 'Christopher Campbell',
             role: 'Branding/UX design',
-            image: '/images/team_2.png',
+            image: 'images/team_2.png',
             social_media: [
                 {
                     icon: 'icons/facebook.svg',
@@ -54,7 +54,7 @@ const Team = () => {
         {
             name: 'Michael Fertig ',
             role: 'Developer',
-            image: '/images/team_3.png',
+            image: 'images/team_3.png',
             social_media: [
                 {
                     icon: 'icons/facebook.svg',
