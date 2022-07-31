@@ -1,9 +1,11 @@
 @import './src/variables'
 
 .header
-  height: 1000px
+  height: auto
   position: relative
 
+.header--top
+  position: relative
 
 .header__bg
   position: absolute
@@ -12,34 +14,38 @@
 
 .header__bg--image
   display: block
-  height: 1134px
+  height: auto
   z-index: -2
+  max-height: 1000px
+  width: 100%
 
 .header__bg--gradient
-  height: 1000px
+  height: 100%
   background: linear-gradient(180deg, rgba(232,129,129,1) 0%, rgba(241,218,138,1) 100%)
   opacity: 0.9
-  z-index: -1
+  z-index: 0
 
 
 .navbar-wrapper
+  position: absolute
   display: flex
   width: 100%
   justify-content: space-between
+  z-index: 1
 
 .navbar-wrapper--logo
   margin: 0
   padding-top: 28px
   padding-left: 55px
   color: white
-  font-size: 30px
-
+  font-size: calc(12px + 2vw)
 
 .front
   position: absolute
   top: 42%
   left: 50%
   transform: translate(-50%, -50%)
+  z-index: 1
 
 .front--text
   color: white
@@ -47,14 +53,14 @@
   line-height: 0.9
 
 .front--text__description
-  font-size: 72px
+  font-size: 4vw
   font-weight: $theme-font-regular
   font-family: $theme-decorative-font
   margin-bottom: 42px
 
 
 .front--text__title
-  font-size: 150px
+  font-size: 8vw
   font-family: $theme-font
   text-align: center
 
@@ -63,25 +69,12 @@
   top: 73%
   left: 50%
   transform: translate(-50%, 0)
+  z-index: 1
 
-@media only screen and (max-width: $breakpoint-medium)
-  .front--text__title
-    font-size: 100px
-
+@media only screen and (max-width: $breakpoint-large)
   .front--text__description
-    font-size: 42px
-
-@media only screen and (max-width: $breakpoint-small)
-  .front--text__title
-    font-size: 70px
-
-  .front--text__description
-    font-size: 20px
     margin-bottom: 20px
 
 @media only screen and (max-width: $breakpoint-extra-small)
-  .front--text__title
-    font-size: 40px
-
-  .front--text__description
-    font-size: 20px
+  .navbar-wrapper--logo
+    padding-left: 20px
